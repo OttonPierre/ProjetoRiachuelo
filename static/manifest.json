@@ -1,8 +1,18 @@
 {
-  "assets/index.js": {
+  "assets/icone.png": {
+    "file": "css/icone-bundle.png",
+    "src": "assets/icone.png"
+  },
+  "assets/index.jsx": {
     "file": "js/index-bundle.js",
     "name": "index",
-    "src": "assets/index.js",
-    "isEntry": true
+    "src": "assets/index.jsx",
+    "isEntry": true,
+    "css": [
+      "css/index-bundle.css"
+    ],
+    "assets": [
+      "css/icone-bundle.png"
+    ]
   }
 }
