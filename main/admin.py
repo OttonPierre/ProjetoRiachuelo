@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Animal, Desaparecido, Adocao
 
-# Register your models here.
+# Registro simples dos modelos
+admin.site.register(Animal)
+admin.site.register(Desaparecido)
+admin.site.register(Adocao)

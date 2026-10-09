@@ -6,7 +6,7 @@ function App() {
       <header className="navbar">
         <div className="logo">
           <img src={icon} alt="Projeto Riachuelo Logo" className="logo-img" />
-          Projeto Riachuelo
+          S.O.S Animais: Riachuelo
         </div>
         <nav className="nav-links">
           <a href="#">Início</a>
